@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masa</title>
+    <link rel="stylesheet" href="masa.css">
+    <link rel="icon" href="../../img/fisica.ico">
+</head>
+<body>
+    <header>
+        <div><h1 class="titulo">MASA</h1></div>
+
+        <div class="contenido">
+            <div class="concepto">
+                <p class="con">La masa es una magnitud física y propiedad general de la materia​ que expresa la inercia o resistencia al cambio de movimiento de un cuerpo. De manera más precisa es la propiedad de un cuerpo que determina la aceleración del mismo, cuando este se encuentra bajo la influencia de una fuerza dada.​</p>
+            </div>
+                <p class="for">Formula:</p>
+            <p class="formula"><b> m = F / a </b> </p>
+        </div>
+        <div class="calcular">
+            <form action="#">
+                <div class="nombre">
+                    <div class="masa"><label >Fuerza:</label></div>
+                    <div class="aceleracion"><label>Aceleración:</label></div>
+                    <div class="fuerza"><label>Masa:</label></div>
+                </div>
+    
+                <div class="numeros">
+                    <input type="number" id="Fuerza"> <label><b>N</b></label>
+                    <label><b class="barra">/</b></label>
+                    <input type="number" id="Aceleracion"> <label><b>m/s^2</b></label>
+                    <label><b class="igual">=</b></label>
+                    <input type="number" id="Masa" readonly> <label><b>Kg</b></label>
+                </div>
+                <br>
+                <div class="bontondecalculo">
+                    <button onclick="dividir()">Calcular</button>
+                </div>
+            </form>
+        </div>
+    </header>
+    <script src="calcular masa.js"></script>
+    <footer>
+        <ul class="botones">
+            <li class="fam" id=fuerza><a href="../../index.htm" >Inicio</a></li>
+            <li class="fam"><a href="../Aceleración/aceleracion.htm">Aceleración</a></li>
+            <li class="fam" id=masa><a href="../Fuerza/fuerza.htm">Fuerza</a></li>
+        </ul>
+    </footer>
+</body>

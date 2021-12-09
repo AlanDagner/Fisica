@@ -1,0 +1,161 @@
+body{
+    background: url(../../img/aceleracion.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    display: inline-block;
+    margin-left: 600px;
+    color: azure;;
+}
+
+
+p{
+    padding: 25px 20px;
+    color: white;
+    font-size: 22px;
+}
+.titulo{
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.contenido{
+    background-color: black;
+    width: 800PX;
+    height: 225px;
+    margin-left: 350PX;
+    margin-top: 10px;
+}
+
+.con{
+    margin: 0px;
+}
+
+.for{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 250px;
+}
+
+.formula{
+    display: inline-block;
+    margin: 0px;
+    margin-left: 50px;
+    color: black;
+    background-color: white;
+    padding: 5px 5px;
+}
+
+.masa{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.aceleracion{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 220px;
+}
+
+.fuerza{
+    margin-top: 25px;
+    display: inline-block;
+    margin-left: 205px;
+}
+
+.nombre{
+    font-size:20px;
+}
+
+.calcular{
+    background-color: black;
+    width: 800PX;
+    height: 170px;
+    margin-left: 350PX;
+    margin-top: 10px;
+}
+
+.barra{
+    margin: 0px 20px;
+}
+
+.igual{
+    margin: 0px 20px;
+}
+
+button{
+    display: inline-block;
+    margin-top:7px;
+    margin-left: 335px;
+    color: white;
+    background-color:#797979;
+    padding: 7px 25px;
+}
+
+button:hover{
+    color: black;
+    background-color:white;
+}
+
+.numeros{
+    padding-top:20px;
+    font-size:15px;
+    padding-left: 15px;
+}
+
+label{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 40px;
+
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+.fam{
+    display: inline-block;
+}
+
+#fuerza{
+    margin-right: 100px;
+}
+#acelereacion{
+    margin-left: 100px;
+}
+#masa{
+    margin-left: 100px;
+}
+
+.botones{
+    margin-left: 410px;
+    margin-top: 50px;
+}
+
+input{
+    display: inline-block;
+    font-size: 15px;
+}
+
+#Masa{
+    margin:0px;
+}
+#Aceleracion{
+    margin:0px;
+}
+#Fuerza{
+    margin:0px;
+}

@@ -1,0 +1,117 @@
+body{
+    background: url(img/formulas-de-fisica-og.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1{
+    position: absolute;
+    margin-left: 490px;
+    color: azure;
+}
+
+nav{
+    margin: 7px;
+}
+
+.titulo{
+    background-color: black;
+    padding: 20px 20px;
+}
+
+.introduccion{
+    position: absolute;
+    margin-top: 120px;
+    width: 1000px;
+    height: auto;
+    color: azure;
+    background-color: black;
+    padding: 25px 20px;
+    margin-left: 225px;
+
+}
+
+.historia{
+    font-size: 20px;
+}
+
+.ley{
+    text-align: center;
+}
+
+
+.leyes{
+    display: inline-block;
+    position: absolute;
+    margin-top:30px;
+    margin-left: 100px;
+    font-size: 20px;
+
+
+}
+
+.formula{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    padding:10px 10px;
+    font-size:20px;
+    margin-top:50px;
+    margin-left: 400px;
+}
+
+.imagen{
+    display: inline;
+}
+
+.newton{
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left:700px;
+}
+
+h2{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    margin-top: 525px;
+    margin-left: 695px;
+    padding: 10px 10px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 40px;
+
+}
+
+a:hover {
+    color: black;
+    background-color: white;
+}
+.fam{
+    display: inline-block;
+}
+
+#fuerza{
+    margin-right: 100px;
+}
+#acelereacion{
+    margin-left: 100px;
+}
+#masa{
+    margin-left: 100px;
+}
+
+.botones{
+    margin-left: 375px;
+}

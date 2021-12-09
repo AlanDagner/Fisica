@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuerza</title>
+    <link rel="stylesheet" href="fuerza.css">
+    <link rel="icon" href="../../img/fisica.ico">
+</head>
+<body>
+    <header>
+        <div><h1 class="titulo">FUERZA</h1></div>
+        <div class="contenido">
+            <div class="concepto">
+                <p class="con">La fuerza es una magnitud vectorial que razón de cambio de momento lineal entre dos partículas o sistemas de partículas. Según una definición clásica, fuerza es todo agente capaz de modificar la cantidad de movimiento o la forma de los materiales.</p>
+            </div>
+                <p class="for">Formula:</p>
+            <p class="formula"><b> F = m . a </b></p>
+        </div>
+        <div class="calcular">
+            <form action="#">
+                <div class="nombre">
+                    <div class="masa"><label >Masa:</label></div>
+                    <div class="aceleracion"><label>Aceleración:</label></div>
+                    <div class="fuerza"><label>Fuerza:</label></div>
+                </div>
+
+                <div class="numeros">
+                    <input type="number" id="Masa"> <label><b>Kg</b></label>
+                    <label><b class="x">X</b></label>
+                    <input type="number" id="Aceleracion"> <label><b>m/s^2</b></label>
+                    <label><b class="igual">=</b></label>
+                    <input type="number" id="Fuerza" readonly> <label><b>N</b></label>
+                </div>
+                <br>
+                <div class="bontonfuerza">
+                    <button onclick="multiplicar()">Calcular</button>
+                </div>
+            </form>
+        </div>
+
+    </header>
+    <script src="calcular fuerza.js"></script>
+</body>
+<footer>
+    <ul class="botones">
+        <li class="fam" id=fuerza><a href="../../index.htm" >Inicio</a></li>
+        <li class="fam"><a href="../Aceleración/aceleracion.htm">Aceleración</a></li>
+        <li class="fam" id=masa><a href="../Masa/masa.htm">Masa</a></li>
+    </ul>
+</footer>
